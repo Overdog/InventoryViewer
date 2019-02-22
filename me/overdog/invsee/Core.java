@@ -23,7 +23,7 @@ public class Core extends JavaPlugin
 	public void onEnable()
 	{
 		plugin = this;
-	    config = new YamlConfiguration();
+	        config = new YamlConfiguration();
 		this.saveDefaultConfig();
 		PluginManager pm = Bukkit.getPluginManager();
 		if (config.getBoolean("disable-startup-message")) 
